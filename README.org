@@ -1,6 +1,12 @@
 Publication-quality graphics for casual useRs
 
-* Motivation
+Note that if you are viewing this on github then there are several
+broken links below. To fix that, clone the repository, execute =make=
+in the =HOCKING-graphics-tutorial= directory, and then open
+=README.org= in emacs and do =C-c C-e b= (or =M-x
+org-export-to-html=).
+
+** Motivation
 
 There are many features in R that make it ideal for making
 [[file:HOCKING-graphics-tutorial/HOCKING-graphics-tutorial.pdf][publication-quality graphics such as the figures shown in this
@@ -10,10 +16,14 @@ familiar with MATLAB than R.
 In this tutorial, I will show how CSV data exported from MATLAB can be
 read into R to make publication-quality graphics.
 
-* Course outline (60 minutes)
+** Course outline (60 minutes)
 
-First 20 minutes: installation of R
-([[http://www.rstudio.com/ide/download/desktop][RStudio]], [[http://cran.ism.ac.jp/][CRAN]])
+First 20 minutes: installation of R ([[http://www.rstudio.com/ide/download/desktop][RStudio]], [[http://cran.ism.ac.jp/][CRAN]]), theory of error
+bars. It is OK to not use error bars when you:
+- Do not want to answer the comparison question: "are these two
+  curves different?"
+- Want to emphasize that one of the curves is NOT random (don't show
+  error bands), but the others are (do show error bands).
 
 Second 20 minutes: I will highlight the examples shown below and
 [[file:HOCKING-graphics-tutorial.tgz][in this .tgz archive]].
