@@ -23,8 +23,7 @@ bars. It is OK to not use error bars when you:
 - Want to emphasize that one of the curves is NOT random (don't show
   error bands), but the others are (do show error bands).
 
-Second 20 minutes: I will highlight the examples shown below and
-[[file:HOCKING-graphics-tutorial.tgz][in this .tgz archive]].
+Second 20 minutes: I will highlight the examples shown below.
 
 Last 20 minutes: if you would like me to show you how to plot your own
 data, please prepare a CSV file such as the ones shown.
