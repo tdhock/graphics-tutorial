@@ -1,0 +1,30 @@
+Publication-quality graphics for casual useRs
+
+* Motivation
+
+There are many features in R that make it ideal for making
+[[file:HOCKING-graphics-tutorial/HOCKING-graphics-tutorial.pdf][publication-quality graphics such as the figures shown in this
+sample PDF]]. However, many machine learning researchers are more
+familiar with MATLAB than R.
+
+In this tutorial, I will show how CSV data exported from MATLAB can be
+read into R to make publication-quality graphics.
+
+* Course outline (60 minutes)
+
+First 20 minutes: installation of R
+([[http://www.rstudio.com/ide/download/desktop][RStudio]], [[http://cran.ism.ac.jp/][CRAN]])
+
+Second 20 minutes: I will highlight the examples shown below and
+[[file:HOCKING-graphics-tutorial.tgz][in this .tgz archive]].
+
+Last 20 minutes: if you would like me to show you how to plot your own
+data, please prepare a CSV file such as the ones shown.
+
+| Plot                                                         | CSV            | Code                | with output            |
+|--------------------------------------------------------------+----------------+---------------------+------------------------|
+| [[file:HOCKING-graphics-tutorial/figure-CompareAUC-low-res.png]] | [[file:HOCKING-graphics-tutorial/CompareAUC.csv][CompareAUC.csv]] | [[file:HOCKING-graphics-tutorial/figure-CompareAUC.R][figure-CompareAUC.R]] | [[file:HOCKING-graphics-tutorial/figure-CompareAUC.html][figure-CompareAUC.html]] |
+| [[file:HOCKING-graphics-tutorial/figure-SegCost.png]]            | [[file:HOCKING-graphics-tutorial/SegCost.csv][SegCost.csv]]    | [[file:HOCKING-graphics-tutorial/figure-SegCost.R][figure-SegCost.R]]    | [[file:HOCKING-graphics-tutorial/figure-SegCost.html][figure-SegCost.html]]    |
+| [[file:HOCKING-graphics-tutorial/figure-TestError-thumb.png]]    | [[file:HOCKING-graphics-tutorial/TestError.csv][TestError.csv]]  | [[file:HOCKING-graphics-tutorial/figure-TestError.R][figure-TestError.R]]  | [[file:HOCKING-graphics-tutorial/figure-TestError.html][figure-TestError.html]]  |
+
+
